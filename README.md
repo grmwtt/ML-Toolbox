@@ -1,18 +1,18 @@
 # Machine Learning Toolbox
 
-A comprehensive collection of machine learning algorithms implemented from scratch with detailed explanations, diagnostics, and visualizations.
+Custom implementations of machine learning algorithms from scratch for educational purposes.
 
-## 📚 Overview
+## Overview
 
-This repository contains custom implementations of fundamental machine learning algorithms, each accompanied by:
-- Mathematical foundations and intuition
-- Step-by-step implementation from scratch
+This repository contains implementations of fundamental ML algorithms with:
+- Mathematical foundations and derivations
+- From-scratch implementations using NumPy
 - Diagnostic tools and evaluation metrics
 - Visualization of results and decision boundaries
 - Comparison with sklearn implementations
-- Use cases and appropriate data types
+- Use cases and practical guidelines
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 ml-toolbox/
@@ -52,20 +52,20 @@ ml-toolbox/
     └── sample_datasets.py
 ```
 
-## 🔧 Each Notebook Contains
+## Notebook Structure
 
-### 1. **Theory Section**
+### 1. Theory Section
 - Mathematical formulation
 - Intuitive explanation
 - Assumptions and limitations
 - Time and space complexity
 
-### 2. **Implementation**
+### 2. Implementation
 - Custom implementation from scratch using NumPy
 - Clear, commented code with docstrings
 - Modular design for reusability
 
-### 3. **Diagnostics & Evaluation**
+### 3. Diagnostics & Evaluation
 - Training curves (loss, accuracy over iterations)
 - Learning curves (performance vs training size)
 - Validation curves (hyperparameter tuning)
@@ -73,29 +73,29 @@ ml-toolbox/
 - Feature importance analysis (where applicable)
 - Residual plots (for regression)
 
-### 4. **Visualizations**
+### 4. Visualizations
 - Decision boundaries (2D and 3D)
 - Feature distributions
 - Model predictions vs actual values
 - ROC curves and precision-recall curves
 - Interactive plots using plotly
 
-### 5. **Use Cases & Guidelines**
+### 5. Use Cases & Guidelines
 - When to use this algorithm
 - Types of data it works best with
 - Pros and cons
 - Common pitfalls and how to avoid them
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
-Each implementation helps understand:
-- The math behind the algorithm
-- How to code it from scratch
-- How to evaluate and diagnose model performance
-- When and why to use specific algorithms
-- How to interpret results
+Each implementation covers:
+- Mathematical foundations
+- Implementation details
+- Performance evaluation and diagnostics
+- Appropriate use cases
+- Results interpretation
 
-## 📊 Evaluation Metrics Implemented
+## Evaluation Metrics
 
 ### Classification
 - Accuracy, Precision, Recall, F1-Score
@@ -116,14 +116,14 @@ Each implementation helps understand:
 - Calinski-Harabasz Index
 - Within-Cluster Sum of Squares (Elbow Method)
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository
 2. Install requirements: `pip install -r requirements.txt`
 3. Navigate to any algorithm notebook
 4. Run cells sequentially to see implementation and results
 
-## 📝 Implementation Checklist
+## Implementation Checklist
 
 ### Supervised Learning - Classification
 - [ ] Logistic Regression (Binary & Multiclass)
@@ -154,7 +154,7 @@ Each implementation helps understand:
 - [ ] t-SNE
 - [ ] Autoencoders
 
-## 💡 Key Features
+## Key Features
 
 - **No sklearn for core algorithms** - Everything implemented using NumPy
 - **Comprehensive testing** - Each implementation tested against sklearn
@@ -162,7 +162,7 @@ Each implementation helps understand:
 - **Practical examples** - Real datasets with meaningful interpretations
 - **Modular code** - Reusable components across different algorithms
 
-## 📚 Resources & References
+## References
 
 - Pattern Recognition and Machine Learning - Bishop
 - The Elements of Statistical Learning - Hastie, Tibshirani, Friedman
