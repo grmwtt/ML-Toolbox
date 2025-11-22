@@ -3,10 +3,10 @@
 ## Overview
 A comprehensive portfolio of machine learning implementations, benchmarking studies, and deep learning architectures. This repository bridges the gap between statistical theory and production-grade engineering, featuring rigorous comparisons between classical algorithms (XGBoost, LightGBM) and modern deep learning frameworks (PyTorch).
 
-**Author:** Griffin Witt
+**Author:** Griffin Witt <br>
 **Academic Focus:** Computational Modeling & Data Analytics | M.S. Data Science Candidate at Virginia Tech
 
-## Repository Architecture
+## Repository Architecture <br>
 This project follows a modular production structure rather than a flat notebook list.
 
 ```text
