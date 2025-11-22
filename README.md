@@ -5,7 +5,9 @@ A comprehensive portfolio of machine learning implementations, benchmarking stud
 
 **Author:** Griffin Witt <br>
 **Academic Focus:** Computational Modeling & Data Analytics | M.S. Data Science Candidate at Virginia Tech
-<br>
+
+
+
 ## Repository Architecture <br>
 This project follows a modular production structure rather than a flat notebook list.
 
